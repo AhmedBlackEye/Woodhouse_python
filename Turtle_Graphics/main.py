@@ -16,8 +16,10 @@ def run():
     turtle.bgcolor('#549ef2')
     turtle.title("Summer HW")
     t.shape("circle")
-    t.pen(pensize=3, speed=4)
+    t.pen(pensize=3, speed=20)
     draw_petal(t)
+    turtle.done()
+    
 
 if __name__ == "__main__":
     run()
